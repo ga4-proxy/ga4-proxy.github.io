@@ -1,0 +1,19 @@
+<!--
+    Author: Sungguk Cha
+    Date:   8 Sep. 2022
+-->
+
+<script>
+    const urltext = window.location.href;
+    const url = new URL(urltext);
+    const urlParams = url.searchParams;
+    const ga4id = urlParams.get('id');
+    console.log("ga4id:" + ga4id);
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=" + ga4id></script>\
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', ga4id);
+</script>
