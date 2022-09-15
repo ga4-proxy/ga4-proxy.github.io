@@ -9,5 +9,5 @@ Given GA4 id `G-XXXXXXXXX` and a tag `Example_Tag` (i.e., page name), just embed
 ## Example
 ### GA4 for Notion
 
-1. Create `Image embed` block.
-2. Link embedd `ga4-proxy.github.io?id=G-XXXXXXXXX&tag=Example_Tag`.
+1. Copy your own link `ga4-proxy.github.io?id=G-XXXXXXXXX&tag=Example_Tag`.
+2. Paste the link to a notion block by `{ctrl} + {shift} + v`. This way preserves the parameters. 
